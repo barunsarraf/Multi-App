@@ -13,11 +13,11 @@ Code thus has been written in a generalised format.<br/>
 <h2>Installation</h2>
 <p>Clone the project from github. Extract the file and import it in Android Studio.Compile it and Run</p>
 
-<progress value="96" max="100">
+<progress value="98" max="100">
 </progress>
 
 <h2>Contributers</h2>
-<p>Barun Sarraf</p>
-<p>E-Mail=barunsaraf1@gmail.com</p>
+
+<p><b>Barun Sarraf</b><i> (barunsarraf1@gmail.com)</i></p>
 
   
