@@ -9,3 +9,16 @@ Code thus has been written in a generalised format.<br/>
 <img src="screenshots/1.png" alt="TTS Multi-language" height="350px" />
 <img src="screenshots/4.png" alt="Registration" height="350px" />
 <img src="screenshots/3.png" alt="Main Page" height="350px" /></p>
+
+<h2>Installation</h2>
+<p>Clone the project from github. Extract the file and import it in Android Studio.Compile it and Run</p>
+
+Completed Progress:
+<progress value="96" max="100">
+</progress>
+
+<h2>Contributers</h2>
+<p>Barun Sarraf</p>
+<p>E-Mail=barunsaraf1@gmail.com</p>
+
+  
