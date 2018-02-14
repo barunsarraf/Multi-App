@@ -4,5 +4,6 @@ An Android application that have functionality to convert text to speech in diff
 This project can be used to take snippets of the different functionality it provides.
 Code thus has been written in a generalised format.<br/>
 
-<p><img src="screenshots/2.png" alt="Login Page" height="400px" /></p>
-<p><img src="screenshots/1.png" alt="TTS Multi-language" height="400px" /></p>
+<h2>Screen shots</h2>
+<p><img src="screenshots/2.png" alt="Login Page" height="400px" />
+<img src="screenshots/1.png" alt="TTS Multi-language" height="400px" /></p>
