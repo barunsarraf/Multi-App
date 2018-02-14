@@ -5,7 +5,7 @@ This project can be used to take snippets of the different functionality it prov
 Code thus has been written in a generalised format.<br/>
 
 <h2>Screen shots</h2>
-<p><img src="screenshots/2.png" alt="Login Page" height="400px" />
-<img src="screenshots/1.png" alt="TTS Multi-language" height="400px" />
-<img src="screenshots/4.png" alt="Registration" height="400px" />
-<img src="screenshots/3.png" alt="Main Page" height="400px" /></p>
+<p><img src="screenshots/2.png" alt="Login Page" height="350px" />
+<img src="screenshots/1.png" alt="TTS Multi-language" height="350px" />
+<img src="screenshots/4.png" alt="Registration" height="350px" />
+<img src="screenshots/3.png" alt="Main Page" height="350px" /></p>
