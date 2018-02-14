@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "451501021029",
+    "firebase_url": "https://more-c4647.firebaseio.com",
+    "project_id": "more-c4647",
+    "storage_bucket": "more-c4647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451501021029:android:28be3d6fabab5d98",
+        "android_client_info": {
+          "package_name": "com.example.barun.more"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451501021029-b0cgr59b0t6l59d9j90satip3h0meled.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barun.more",
+            "certificate_hash": "83b23f7424bf6c854a5cb1bd31e6a35b2701b0fe"
+          }
+        },
+        {
+          "client_id": "451501021029-njabr4ej50o9huiq36sravhla5v5sob3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn-2XmEUn3JmOOu1gm2kMJPFb4TYPzumY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451501021029-njabr4ej50o9huiq36sravhla5v5sob3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/calculator"
+    tools:context="com.example.barun.more.Calci">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ToolBarStyle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:textColor="#1e2535"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:id="@+id/toolbar_title" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etFirstNumber"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFirstNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etSecondNumber"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="17dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSecondNumber"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:id="@+id/buttonAdd"
+            android:background="@color/colorPrimary"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:id="@+id/buttonSubtract"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:text="*"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:id="@+id/buttonMultiply"
+            android:background="@android:color/holo_green_light"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:text="/"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonDivide"
+            android:background="@android:color/holo_red_light"
+            android:onClick="onButtonClick" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="17dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView11"
+        android:layout_height="50px"
+        android:textColor="@color/colorPrimary"
+        android:hint="RESULT"
+        android:textColorHint="@color/colorPrimary"
+        android:textAlignment="0"
+        android:layout_below="@+id/etSecondNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</LinearLayout>

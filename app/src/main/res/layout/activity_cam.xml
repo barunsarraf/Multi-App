@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e2535"
+    >
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ToolBarStyle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textColor="#1e2535"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:id="@+id/toolbar_title" />
+
+        </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnclick"
+        android:text="Launch Camera"
+        android:theme="@style/MyButton"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+
+        android:gravity="center"
+        android:background="#374258"
+        android:padding="10dp"/>
+</LinearLayout>

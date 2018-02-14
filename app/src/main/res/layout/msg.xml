@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/mob1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/mobtext"
+        android:layout_weight="0.05"
+        android:text="Mobile No:"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/mobtext"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_gravity="right"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/msg1"
+        android:layout_toEndOf="@+id/msg1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_weight="0.10"
+        android:capitalize="words"
+        android:text="Message:"
+        android:textSize="25sp"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/mob1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/msgtext"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_alignTop="@+id/msg1"
+        android:layout_alignLeft="@+id/mobtext"
+        android:layout_alignStart="@+id/mobtext"
+        android:layout_alignRight="@+id/mobtext"
+        android:layout_alignEnd="@+id/mobtext" />
+
+    <Button
+        android:id="@+id/smsbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="Send SMS"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/msgtext"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

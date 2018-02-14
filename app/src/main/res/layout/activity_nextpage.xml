@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:backgroundTint="#1e2535"
+    android:padding="20dp">
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        >
+
+        <TextView
+            android:id="@+id/ct"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="Current Time : " />
+        <TextClock
+            android:textStyle="bold"
+            android:textColorHighlight="#18FFFF"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="textEnd"
+            android:id="@+id/textClock2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="hh:mm:ss a" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView3"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/mul2" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/gal"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+
+            android:text="Gallary"
+            android:textColor="#1e2535"
+            android:theme="@style/MyButton" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Quiz"
+            android:textColor="#1e2535"
+            android:theme="@style/MyButton" />
+
+        <Button
+            android:id="@+id/kall"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Call"
+            android:textColor="#1e2535"
+            android:theme="@style/MyButton" />
+
+        <Button
+            android:id="@+id/sendsms"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Send SMS"
+            android:textColor="#1e2535"
+            android:theme="@style/MyButton" />
+
+        <Button
+            android:id="@+id/touchme"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="TouchMe"
+            android:textColor="#1e2535"
+            android:theme="@style/MyButton" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

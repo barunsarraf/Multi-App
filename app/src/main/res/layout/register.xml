@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+android:padding="5dp"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:background="#1e2535"
+android:layout_height="match_parent"
+android:layout_gravity="center">
+
+
+
+
+<TextView
+    android:gravity="top"
+    android:textColor="#FFFF00"
+    android:layout_gravity="end"
+   android:id="@+id/mand"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="* fields are mandatory"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/regreg" />
+
+    <LinearLayout
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#1e2535"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+
+            android:backgroundTint="#18FFFF"
+            android:textColor="#18FFFF"
+            android:id="@+id/naami"
+            android:textColorHint="#84FFFF"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+        <EditText
+
+            android:backgroundTint="#18FFFF"
+            android:textColor="#18FFFF"
+            android:textColorHint="#84FFFF"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+        <EditText
+
+            android:backgroundTint="#18FFFF"
+            android:textColor="#18FFFF"
+            android:textColorHint="#84FFFF"
+            android:hint="Email Id*"
+            android:id="@+id/emailll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+
+            android:backgroundTint="#18FFFF"
+            android:textColor="#18FFFF"
+            android:textColorHint="#84FFFF"
+            android:id="@+id/paswww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password*"
+            android:inputType="textPassword"
+            />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textColor="#1e2535"
+        android:background="@drawable/regbutton"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

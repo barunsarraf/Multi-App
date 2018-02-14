@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.barun.more">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mul2"
+        android:label="MultiApp"
+        android:roundIcon="@drawable/mul2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Max" />
+        <activity android:name=".Registerfornew" />
+        <activity android:name=".Cameraa" />
+        <activity android:name=".Textto" />
+        <activity android:name=".Nextpage" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Gallery" />
+        <activity android:name=".Message" />
+        <activity android:name=".Quizactivity" />
+        <activity android:name=".Highscore" />
+        <activity android:name=".Touchme" />
+        <activity android:name=".Demoalert" />
+        <activity android:name=".Calling" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Calci"></activity>
+    </application>
+
+</manifest>
