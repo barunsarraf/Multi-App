@@ -13,7 +13,6 @@ Code thus has been written in a generalised format.<br/>
 <h2>Installation</h2>
 <p>Clone the project from github. Extract the file and import it in Android Studio.Compile it and Run</p>
 
-Completed Progress:
 <progress value="96" max="100">
 </progress>
 
